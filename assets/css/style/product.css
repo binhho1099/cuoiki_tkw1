@@ -1,0 +1,140 @@
+
+.product-sale_banner{
+    height: 90px;
+    margin-top: 15px;
+    border-radius: 4px 4px 0 0;
+    overflow: hidden;
+}
+.product-sale_container{
+    padding-inline: 10px;
+    background-color: var(--primary-color);
+    border-radius: 0 0 4px 4px;
+}
+.product_link{
+    overflow: hidden;
+    background-color: #fff;
+    padding: 10px 15px;
+    height: 100%;
+}
+.product-sale_container .product_link {
+    border-radius: var(--border-radius);
+}
+.product_img{
+    margin-block: 10px;
+}
+.product_img > img{
+    margin-top: 25px;
+    transition: all linear .25s;
+}
+.product_label span{
+    background-color: var(--border-color);
+    padding: 2px 3px;
+    border-radius: 2px;
+}
+.product_box h3{
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    color: var(--text-color);
+    font-weight: 100;
+    margin-bottom: 5px;
+    line-height: 2rem;
+}
+.product_box p{
+    font-size: 1.4rem;
+    line-height: 2rem;
+    color: var(--text-color);
+    margin: 5px 0;
+}
+.product_box .product_price{
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 2rem;
+    color: var(--text-color);
+    margin-bottom: 5px;
+}
+.product_old-price{
+    text-decoration: line-through;
+    margin-bottom: 5px;
+}
+.product_box:hover .product_link  h3{
+    color: var(--hover-color);
+}
+
+.product_box:hover .product_link img{
+    transform: translateY(-10%);
+}
+.product_box:hover .product_link{
+    position: relative;
+    z-index: 1;
+    box-shadow: 0 0 10px 0 rgb(157, 157, 157);
+}
+.see-all{
+    text-align: center;
+}
+.btn_see-all{
+    margin: 15px 0;
+    width: 340px;
+    padding: 12px 5px;
+    background-color: #fff;
+    color: var(--text-color);
+    font-size: 1.4rem;
+}
+.btn_see-all:hover{
+    color: var(--hover-color);
+}
+.product_rate span{
+    color: var(--text-color);
+    font-size: 12px;
+    line-height: 16px;
+}
+.product_rate i{
+    font-size: 12px;
+    color: #fb6e2e;
+}
+.product_rate i.dark{
+    color: #bdbdbd;
+}
+
+
+/* product */
+.product_heading{
+    background: url(./../../img/bg_phone-list.png);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+
+    border-radius: 4px 4px 0 0;
+    margin-top: 50px;
+}
+.product_heading h2{
+    font-size: 24px;
+    color: var(--white-color);
+    text-transform: uppercase;
+    line-height: 29px;
+}
+.product_best{
+    display: flex;
+    align-items: center;
+}
+.product_best a{
+    display: inline-block;
+    padding: 10px 15px;
+    margin-inline: 5px;
+    color: var(--text-color);
+
+    background-color: var(--white-color);
+    border-radius: 30px;
+    font-size: 14px;
+}
+.product_best a:hover{
+    color: var(--hover-color);
+}
+.phone .product_box{
+    border: 0.5px solid #f6f6f6;
+}
+.laptop-tablet .product_box:not(:last-child),
+.phu-kien .product_box:not(:last-child),
+.smart-watch .product_box:not(:last-child){
+    border: 0.5px solid #f6f6f6;
+}

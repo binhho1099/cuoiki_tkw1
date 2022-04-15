@@ -1,0 +1,25 @@
+*, *::after,*::before{
+	box-sizing: inherit;
+	padding: 0;
+    margin: 0;
+}
+html{
+	font-size: 62.5%;
+	line-height: 1.4rem;
+	font-family: 'Poppins', sans-serif;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+	overflow-x: hidden;
+}
+a{
+	display: block;
+	text-decoration: none;
+}
+ 
+input{
+	outline: none;
+	border: none;
+}
+img{
+	width: 100%;
+}

@@ -1,0 +1,38 @@
+.smart-watch{
+    background-color: #B70E18;
+    padding: 10px;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-top: 30px;
+}
+.list-watch{
+    border-radius: var(--border-radius);
+    overflow: hidden;
+}
+.smart-watch_tab{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.smart-watch_tab-list{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.smart-watch_tab-item a{
+    padding: 10px 18px;
+    font-size: 14px;
+    border: 1px solid #EECFD0;
+    margin-right: 10px;
+    border-radius: var(--border-radius);
+    color: #EECFD0;   
+}
+.smart-watch_tab-item.active a{
+    color: var(--text-color);
+    background-color: var(--white-color);
+}
+.smart-watch_link{
+    color: var(--white-color);
+    font-size: 14px;
+}
